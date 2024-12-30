@@ -30,9 +30,6 @@ export const theme = createTheme({
       styleOverrides: {
         root: {
           textTransform: "none",
-          color: "white",
-          fontWeight: 600,
-          fontSize: "medium",
         },
       },
     },
