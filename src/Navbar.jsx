@@ -16,7 +16,7 @@ function Navbar() {
               height: 70,
             }}
             alt="Your logo."
-            src={"/src/assets/ADITYALOGO.png"}
+            src={"assets/ADITYALOGO.png"}
           />
           <Box
             sx={{
