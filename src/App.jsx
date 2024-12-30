@@ -5,7 +5,8 @@ import Footer from "./Footer";
 import About from "./components/about";
 import SectionTitle from "./components/sectionTitle";
 import Slide from "./components/slide";
-import { slider } from "./utils/utils";
+import { product, slider } from "./utils/utils";
+import ProductPage from "./components/ProductPage";
 
 export default function App() {
   return (
@@ -26,14 +27,19 @@ export default function App() {
           </div>
           <About />
         </section>
-        <section className="container">
-          <div className="pb-10">
+        <section className="container mx-auto py-10">
+          <div className="p-10">
             <SectionTitle title="Products" />
           </div>
           <Slide items={slider} />
         </section>
-        <Button variant="contained">Contained</Button>
-        <h1 className="text-3xl font-bold underline">Hello world!</h1>
+
+        <section className="container">
+          <div className="pb-10">
+            <SectionTitle title="Products Page" />
+          </div>
+          <ProductPage items={product} />
+        </section>
       </Container>
       <Footer />
     </>

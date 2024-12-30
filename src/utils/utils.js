@@ -25,3 +25,27 @@ export const slider = [
         description: `Named after the Hindi word for lightning, our Bijili crackers illuminate the night with their intense brightness and crackling sounds. Designed to capture the essence of excitement and thrill, each Bijili cracker delivers a powerful burst of light and sound that leaves a lasting impression. Whether it's Diwali celebrations or festive gatherings, our Bijili crackers add a spark of joy and excitement to every occasion.`,
     },
 ];
+
+
+export const product = [
+  {
+    title: "Flower pots",
+    imageUrl: "assets/flowerbots_slider.jpeg",
+  },
+  {
+    title: "Special flowerpots",
+    imageUrl: "assets/special_flowerpots.webp",
+  },
+  {
+    title: "Chakkars",
+    imageUrl: "assets/chakkars.webp",
+  },
+  {
+    title: "Special Chakkars",
+    imageUrl: "assets/special_chakkars.webp",
+  },
+  {
+    title: "Lakshmi Bijili Crackers",
+    imageUrl: "assets/lakshmi_crackers.jpeg",
+  },
+];
