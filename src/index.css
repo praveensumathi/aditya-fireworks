@@ -41,6 +41,7 @@ body {
 .slick-slide > div {
   display: flex;
   justify-content: center;
+  padding: 10px;
 }
 
 .banner-image {

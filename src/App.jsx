@@ -13,13 +13,16 @@ export default function App() {
     <>
       <Navbar />
       <div className="relative h-[50vh]">
-        <section className="banner-image bg-cover bg-no-repeat bg-center h-full flex items-center justify-center">
+        <section
+          id="home"
+          className="banner-image bg-cover bg-no-repeat bg-center h-full flex items-center justify-center"
+        >
           <div className="absolute inset-0 bg-black opacity-20"></div>
           <Banner title="We are one of the leading sellers of crackers" />
         </section>
       </div>
       <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
-        <section>
+        <section id="about">
           <SectionTitle title="Aditya Fireworks Industries" />
           <Box className="grid grid-rows-1 grid-cols-2  md:grid-cols-4 md:text-xl md:pb-4 ">
             {about.map((item, index) => (
@@ -48,11 +51,11 @@ export default function App() {
           <SectionTitle title="Special Products" />
           <Slide items={slider} />
         </Box>
-        <section className="container mx-auto">
+        <section id="products" className="container mx-auto">
           <SectionTitle title="All Products" />
           <ProductPage items={product} />
         </section>
-        <section className="mt-10">
+        <section id="contact" className="mt-10">
           <Footer />
         </section>
       </Box>

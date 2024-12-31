@@ -3,21 +3,23 @@ import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
 
-const pages = ["Home", "About", "products", "Contact Us"];
+const pages = ["Home", "About", "Products", "Contact"];
 
 function Navbar() {
   return (
     <AppBar position="sticky">
       <Container maxWidth={false}>
         <Toolbar disableGutters>
-          <Box
-            component="img"
-            sx={{
-              height: 70,
-            }}
-            alt="Your logo."
-            src={"assets/ADITYALOGO.png"}
-          />
+          <a href="#home">
+            <Box
+              component="img"
+              sx={{
+                height: 70,
+              }}
+              alt="Your logo."
+              src={"assets/ADITYALOGO.png"}
+            />
+          </a>
           <Box
             sx={{
               flexGrow: 1,
@@ -29,6 +31,7 @@ function Navbar() {
             {pages.map((page) => (
               <Button
                 key={page}
+                href={`#${page.toLocaleLowerCase()}`}
                 //onClick={handleCloseNavMenu}
                 sx={{ my: 2, display: "block", fontWeight: 800 }}
               >
