@@ -7,7 +7,7 @@ const pages = ["Home", "About", "products", "Contact Us"];
 
 function Navbar() {
   return (
-    <AppBar position="static">
+    <AppBar position="sticky">
       <Container maxWidth={false}>
         <Toolbar disableGutters>
           <Box

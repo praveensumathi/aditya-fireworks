@@ -1,4 +1,4 @@
-import { Container } from "@mui/material";
+import { Box, Container } from "@mui/material";
 import Button from "@mui/material/Button";
 import Navbar from "./Navbar";
 import About from "./components/about";
@@ -12,11 +12,11 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Container
+      <Box
         sx={{
-          mt: 3,
+          px: 6,
+          background: "black",
         }}
-        maxWidth={false}
       >
         <section className="container mx-auto">
           {/* <div className="py-4">
@@ -27,8 +27,8 @@ export default function App() {
           </div>
           <About />
         </section>
-        <section className="container mx-auto py-10">
-          <div className="p-10">
+        <section className="py-10">
+          <div className="py-10">
             <SectionTitle title="Products" />
           </div>
           <Slide items={slider} />
@@ -47,7 +47,7 @@ export default function App() {
           </div>
           <Footer />
         </section>
-      </Container>
+      </Box>
     </>
   );
 }

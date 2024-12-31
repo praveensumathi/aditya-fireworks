@@ -10,7 +10,7 @@ function About() {
         height={400}
         className="object-cover"
       />
-      <div className="font-semibold text-sm md:text-lg md:pl-10 leading-loose text-gray-500">
+      <div className="font-semibold text-sm md:text-lg md:pl-10 leading-loose text-white">
         <p className="text-justify">
           Welcome to Aditya Fireworks Industries, where the magic of fireworks
           comes alive! As pioneers in the art of creating awe-inspiring

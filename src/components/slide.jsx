@@ -9,46 +9,59 @@ const Slide = ({ items }) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3.8,
-    slidesToScroll: 1,
     autoPlaySpead: 300,
     autoplay: true,
+    initialSlide: 0,
+    slidesToShow: 4.3,
+    arrows: false,
     responsive: [
       {
-        breakpoint: 1200, // Extra large screens
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 820,
-        settings: {
-          slidesToShow: 2,
-        },
-      },
-      {
-        breakpoint: 600,
+        breakpoint: 500,
         settings: {
           slidesToShow: 1,
+        },
+      },
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 1.8,
+        },
+      },
+      {
+        breakpoint: 1150,
+        settings: {
+          slidesToShow: 2.6,
+        },
+      },
+      {
+        breakpoint: 1300,
+        settings: {
+          slidesToShow: 3.3,
+        },
+      },
+      {
+        breakpoint: 1920,
+        settings: {
+          slidesToShow: 4,
         },
       },
     ],
   };
 
   return (
-    <Box className="mx-auto">
+    <Box>
       <Slider {...settings}>
         {items.map((item, index) => (
           <Card
-            className="rounded-[10px]"
             key={index}
-            sx={{ maxWidth: 345, boxShadow: 2, height: 600 }}
+            sx={{
+              maxWidth: 345,
+              height: 600,
+              borderRadius: 5,
+
+              objectFit: "cover",
+              objectPosition: "center",
+            }}
           >
             <CardMedia
               component="img"
