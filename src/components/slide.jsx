@@ -42,7 +42,7 @@ const Slide = ({ items }) => {
   };
 
   return (
-    <Box className="mx-auto text-center">
+    <Box className="mx-auto">
       <Slider {...settings}>
         {items.map((item, index) => (
           <Card key={index} sx={{ maxWidth: 345, boxShadow: 2, height: 600 }}>
