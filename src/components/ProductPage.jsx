@@ -19,7 +19,7 @@ const ProductPage = ({ items }) => {
                 component="img"
                 src={item.imageUrl}
                 alt={item.title}
-                className="h-64 w-full object-cover"
+                className="h-64 w-full object-contain p-4 "
               />
               <CardContent>
                 <Typography

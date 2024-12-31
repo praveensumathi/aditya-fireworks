@@ -9,14 +9,31 @@ const Slide = ({ items }) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3.5,
+    slidesToShow: 3,
     slidesToScroll: 1,
+    autoPlaySpead: 300,
     autoplay: true,
-    centerMode: true, // Enable center mode
-    centerPadding: "0", // Ensure no padding on the left side
     responsive: [
       {
-        breakpoint: 768,
+        breakpoint: 1200, // Extra large screens
+        settings: {
+          slidesToShow: 3,
+        },
+      },
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 820,
+        settings: {
+          slidesToShow: 2,
+        },
+      },
+      {
+        breakpoint: 600,
         settings: {
           slidesToShow: 1,
         },
@@ -25,10 +42,10 @@ const Slide = ({ items }) => {
   };
 
   return (
-    <Box className="m-auto text-center">
+    <Box className="mx-auto">
       <Slider {...settings}>
         {items.map((item, index) => (
-          <Card key={index} sx={{ maxWidth: 345, boxShadow: 3, height: 600 }}>
+          <Card key={index} sx={{ maxWidth: 345, boxShadow: 2, height: 600 }}>
             <CardMedia
               component="img"
               src={item.imageUrl}
@@ -36,7 +53,10 @@ const Slide = ({ items }) => {
               className="h-64 w-full object-cover p-4"
             />
             <CardContent>
-              <Typography variant="h6" className="py-2 font-extrabold text-3xl">
+              <Typography
+                variant="h6"
+                className="py-2 font-extrabold text-3xl text-center"
+              >
                 {item.title}
               </Typography>
               <Typography
