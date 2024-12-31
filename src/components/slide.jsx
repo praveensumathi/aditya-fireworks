@@ -45,7 +45,11 @@ const Slide = ({ items }) => {
     <Box className="mx-auto">
       <Slider {...settings}>
         {items.map((item, index) => (
-          <Card key={index} sx={{ maxWidth: 345, boxShadow: 2, height: 600 }}>
+          <Card
+            className="rounded-[10px]"
+            key={index}
+            sx={{ maxWidth: 345, boxShadow: 2, height: 600 }}
+          >
             <CardMedia
               component="img"
               src={item.imageUrl}
@@ -54,8 +58,8 @@ const Slide = ({ items }) => {
             />
             <CardContent>
               <Typography
-                variant="h6"
-                className="py-2 font-extrabold text-3xl text-center"
+                className="py-2 text-center"
+                sx={{ fontWeight: 500, fontSize: "30px" }}
               >
                 {item.title}
               </Typography>

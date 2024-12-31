@@ -37,15 +37,10 @@ export const slider = [
   {
     title: "Clasic Thunder Bomb",
     imageUrl: "assets/clasic_thunder_bomb.jpeg",
-    description: ``,
+    description: `These dynamic fireworks burst with a symphony of colors and dazzling effects, creating a mesmerizing spectacle that captivates all who behold it. With their impressive display and safe design, Thunderburst Crackers are perfect for adding excitement to celebrations and events while ensuring the safety of everyone involved.`,
   },
   {
     title: "Hydro Thunder Bomb",
-    imageUrl: "assets/hydro_thunder_bomb.jpeg",
-    description: `These powerful fireworks deliver booming sounds and vibrant bursts of light, creating an exhilarating atmosphere that commands attention. With their impressive display and thrilling effects, Thunder Bomb crackers are perfect for adding excitement to grand celebrations and events.`,
-  },
-  {
-    title: "Squad Thunder Bomb",
     imageUrl: "assets/hydro_thunder_bomb.jpeg",
     description: `These powerful fireworks deliver booming sounds and vibrant bursts of light, creating an exhilarating atmosphere that commands attention. With their impressive display and thrilling effects, Thunder Bomb crackers are perfect for adding excitement to grand celebrations and events.`,
   },
