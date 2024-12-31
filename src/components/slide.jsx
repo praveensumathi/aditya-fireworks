@@ -9,7 +9,7 @@ const Slide = ({ items }) => {
     dots: true,
     infinite: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 3.8,
     slidesToScroll: 1,
     autoPlaySpead: 300,
     autoplay: true,

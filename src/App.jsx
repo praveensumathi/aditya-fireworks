@@ -18,10 +18,10 @@ export default function App() {
         }}
         maxWidth={false}
       >
-        <section className="container">
-          <div className="py-4">
+        <section className="container mx-auto">
+          {/* <div className="py-4">
             <SectionTitle title="About Us" />
-          </div>
+          </div> */}
           <div className="pb-10">
             <SectionTitle title="Aditya Fireworks Industries" />
           </div>
@@ -34,14 +34,14 @@ export default function App() {
           <Slide items={slider} />
         </section>
 
-        <section className="container">
+        <section className="container mx-auto">
           <div className="pb-10">
             <SectionTitle title="Products Page" />
           </div>
           <ProductPage items={product} />
         </section>
 
-        <section className="container">
+        <section className="container mx-auto">
           <div className="pb-10">
             <SectionTitle title="Footer" />
           </div>
