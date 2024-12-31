@@ -10,22 +10,19 @@ import {
 
 const ProductPage = ({ items }) => {
   return (
-    <Box className="mx-auto text-center" sx={{ padding: 2}}>
+    <Box className="mx-auto text-center" sx={{ padding: 2 }}>
       <Grid2 container spacing={4}>
         {items.map((item, index) => (
-          <Grid2 item xs={12} sm={6} md={3} key={index}>
-            <Card sx={{ boxShadow: 3, height: 350, width: 250 }}>
+          <Grid2 size={{ xs: 12, md: 3 }} key={index}>
+            <Card sx={{ boxShadow: 3, borderRadius: 5 }}>
               <CardMedia
                 component="img"
                 src={item.imageUrl}
                 alt={item.title}
-                className="h-64 w-full object-contain p-4 "
+                className="h-64 w-full object-contain"
               />
               <CardContent>
-                <Typography
-                  variant="h6"
-                  className="py-2 font-extrabold text-3xl"
-                >
+                <Typography variant="h6" sx={{ fontWeight: 600 }}>
                   {item.title}
                 </Typography>
               </CardContent>

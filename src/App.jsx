@@ -18,7 +18,7 @@ export default function App() {
           <About />
         </section>
         <Box
-          className="py-10"
+          className="py-10 sm:px-4"
           sx={{
             backgroundImage: "url(assets/parallax.jpg)",
             objectFit: "contain",
@@ -29,11 +29,11 @@ export default function App() {
             backgroundSize: "cover",
           }}
         >
-          <SectionTitle title="Products" />
+          <SectionTitle title="Special Products" />
           <Slide items={slider} />
         </Box>
-        <section>
-          <SectionTitle title="Products Page" />
+        <section className="container mx-auto">
+          <SectionTitle title="All Products" />
           <ProductPage items={product} />
         </section>
         <section className="mt-10">

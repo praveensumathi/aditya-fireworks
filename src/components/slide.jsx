@@ -1,8 +1,8 @@
 import React from "react";
 import Slider from "react-slick";
+import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { Box, Card, CardContent, CardMedia, Typography } from "@mui/material";
 
 const Slide = ({ items }) => {
   const settings = {
@@ -10,7 +10,7 @@ const Slide = ({ items }) => {
     infinite: true,
     autoPlaySpead: 80,
     autoplay: true,
-    slidesToShow: 4.3,
+    slidesToShow: 4,
     arrows: false,
     responsive: [
       {
@@ -47,45 +47,47 @@ const Slide = ({ items }) => {
   };
 
   return (
-    <Box>
-      <Slider {...settings}>
-        {items.map((item, index) => (
-          <Card
-            key={index}
+    <Slider {...settings} className="test">
+      {items.map((item, index) => (
+        <Card
+          key={index}
+          sx={{
+            maxWidth: {
+              xl: 430,
+              sm: 350,
+            },
+            height: 600,
+            borderRadius: 5,
+            p: 2,
+            backgroundColor: "#091629",
+            color: "white",
+            objectPosition: "center",
+          }}
+        >
+          <CardMedia
+            component="img"
+            src={item.imageUrl}
+            alt={item.title}
+            className="h-52 w-full p-1"
             sx={{
-              maxWidth: 345,
-              height: 600,
-              borderRadius: 5,
-              p: 2,
-              backgroundColor: "#091629",
-              color: "white",
+              backgroundImage: "url(assets/cardbackground-1.png)",
+              objectFit: "contain",
             }}
-          >
-            <CardMedia
-              component="img"
-              src={item.imageUrl}
-              alt={item.title}
-              className="h-52 w-full p-1"
-              sx={{
-                backgroundImage: "url(assets/cardbackground-1.png)",
-                objectFit: "contain",
-              }}
-            />
-            <CardContent>
-              <Typography
-                className="py-2 text-center"
-                sx={{ fontWeight: 500, fontSize: "30px" }}
-              >
-                {item.title}
-              </Typography>
-              <Typography variant="body2" className="py-2 text-justify">
-                {item.description}
-              </Typography>
-            </CardContent>
-          </Card>
-        ))}
-      </Slider>
-    </Box>
+          />
+          <CardContent>
+            <Typography
+              className="py-2 text-center"
+              sx={{ fontWeight: 500, fontSize: "30px" }}
+            >
+              {item.title}
+            </Typography>
+            <Typography variant="body2" className="py-2 text-justify">
+              {item.description}
+            </Typography>
+          </CardContent>
+        </Card>
+      ))}
+    </Slider>
   );
 };
 

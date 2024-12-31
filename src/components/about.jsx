@@ -10,7 +10,7 @@ function About() {
         width={300}
       />
       <div className="font-semibold text-sm md:text-lg leading-loose md:col-span-2 py-3">
-        <div className="justify-center hidden md:flex">
+        <div className="justify-center hidden xl:flex">
           <img
             src={"/assets/ADITYALOGO.png"}
             alt="crackers"
