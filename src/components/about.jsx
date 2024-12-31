@@ -20,21 +20,15 @@ function About() {
         </div>
         <div className="text-justify p-5">
           Welcome to Aditya Fireworks Industries, where the magic of fireworks
-          comes alive! As pioneers in the art of creating awe-inspiring
-          pyrotechnic displays, we bring you a symphony of colors, lights, and
-          sounds that ignite the sky and hearts alike. With a legacy spanning 2
-          years, we have mastered the craft of crafting mesmerizing fireworks
-          that captivate audiences of all ages.
-          <br />
-          <br /> From dazzling flowerpots to soaring rockets, from the crackle
-          of bijili crackers to the sweetness of chakkara, each of our products
-          is a testament to our commitment to quality, safety, and innovation.
-          <br />
-          <br />
-          Join us on a journey of celebration and wonder, where every burst of
-          light sparks joy and leaves lasting memories. <br /> <br />
-          Welcome to the world of Aditya Fireworks Industries, where every
-          moment is a celebration!
+          comes alive! With 2 years of expertise, we craft dazzling pyrotechnic
+          displays that ignite the sky with vibrant colors, brilliant lights,
+          and mesmerizing sounds. From sparkling flowerpots to soaring rockets
+          and crackling bijili crackers, our products are a perfect blend of
+          quality, safety, and innovation. <br /> <br />
+          Each creation is designed to bring joy, wonder, and unforgettable
+          moments to your celebrations. Experience the artistry of fireworks
+          with Aditya Fireworks Industries, where every spark lights up a memory
+          and every moment becomes a celebration!
         </div>
       </div>
       <img

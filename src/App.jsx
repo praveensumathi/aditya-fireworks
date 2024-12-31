@@ -21,12 +21,11 @@ export default function App() {
       <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
         <section>
           <SectionTitle title="Aditya Fireworks Industries" />
-          <Box className="grid grid-rows-1 grid-cols-2  md:grid-cols-4 md:text-xl">
+          <Box className="grid grid-rows-1 grid-cols-2  md:grid-cols-4 md:text-xl md:pb-4 ">
             {about.map((item, index) => (
               <Box
                 key={index}
-                className="prepend-dot text-center "
-                style={{ color: "white" }}
+                className="prepend-dot text-center font-semibold text-white"
               >
                 {item}
               </Box>
