@@ -21,9 +21,13 @@ export default function App() {
       <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
         <section>
           <SectionTitle title="Aditya Fireworks Industries" />
-          <Box className="grid container mx-auto grid-rows-1 grid-cols-2 gap-4 ">
-            {about.map((item) => (
-              <Box className="prepend-dot" style={{ color: "white" }}>
+          <Box className="grid grid-rows-1 grid-cols-2  md:grid-cols-4 md:text-xl">
+            {about.map((item, index) => (
+              <Box
+                key={index}
+                className="prepend-dot text-center "
+                style={{ color: "white" }}
+              >
                 {item}
               </Box>
             ))}
