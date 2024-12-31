@@ -68,3 +68,6 @@ export const product = [
     imageUrl: "assets/lakshmi_crackers.jpeg",
   },
 ];
+
+
+export const about = ['Quality', "Safe To Use", "Genuine Price", "Satisfation"]

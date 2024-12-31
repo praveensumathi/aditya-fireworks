@@ -11,12 +11,12 @@ function About() {
       />
       <div className="font-semibold text-sm md:text-lg leading-loose md:col-span-2 py-3">
         <div className="justify-center hidden xl:flex">
-          <img
+          {/* <img
             src={"/assets/ADITYALOGO.png"}
             alt="crackers"
             className="object-cover col-span-1 img-fluid"
             width={200}
-          />
+          /> */}
         </div>
         <div className="text-justify p-5">
           Welcome to Aditya Fireworks Industries, where the magic of fireworks
