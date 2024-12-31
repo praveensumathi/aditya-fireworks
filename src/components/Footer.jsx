@@ -22,10 +22,7 @@ function Footer() {
 
   return (
     <>
-      <Box
-        className="footer-container"
-        sx={{ backgroundColor: "#091629", color: "white", py: 4 }}
-      >
+      <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
         <Container className="inner-box">
           <Box
             display="flex"

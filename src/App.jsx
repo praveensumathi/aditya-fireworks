@@ -12,39 +12,43 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Box
-        sx={{
-          px: 6,
-          background: "black",
-        }}
-      >
-        <section className="container mx-auto">
+      <Box>
+        <section>
           {/* <div className="py-4">
             <SectionTitle title="About Us" />
           </div> */}
-          <div className="pb-10">
+          <div className="py-10">
             <SectionTitle title="Aditya Fireworks Industries" />
           </div>
           <About />
         </section>
-        <section className="py-10">
+        <Box
+          className="py-10"
+          sx={{
+            backgroundImage: "url(assets/parallax.jpg)",
+            objectFit: "contain",
+            width: "100%",
+            objectPosition: "center",
+            height: "auto",
+            backgroundAttachment: "fixed",
+            backgroundSize: "cover",
+          }}
+        >
           <div className="py-10">
             <SectionTitle title="Products" />
           </div>
-          <Slide items={slider} />
-        </section>
 
-        <section className="container mx-auto">
+          <Slide items={slider} />
+        </Box>
+
+        <section>
           <div className="pb-10">
             <SectionTitle title="Products Page" />
           </div>
           <ProductPage items={product} />
         </section>
 
-        <section className="container mx-auto">
-          <div className="pb-10">
-            <SectionTitle title="Footer" />
-          </div>
+        <section className="mt-10">
           <Footer />
         </section>
       </Box>

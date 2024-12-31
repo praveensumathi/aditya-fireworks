@@ -1,16 +1,12 @@
-import { Image } from "@mui/icons-material";
-
 function About() {
   return (
-    <div className="grid grid-rows-1 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-5 place-items-center">
+    <div className="grid grid-rows-1 sm:grid-cols-1 md:grid-cols-4 lg:grid-cols-4 gap-5 mt-2">
       <img
-        src={"/assets/aboutus.avif"}
+        src={"/assets/wala01.jpg"}
         alt="crackers"
-        width={400}
-        height={400}
-        className="object-cover"
+        className="object-cover col-span-1 img-fluid"
       />
-      <div className="font-semibold text-sm md:text-lg md:pl-10 leading-loose text-white">
+      <div className="font-semibold text-sm md:text-lg leading-loose col-span-2">
         <p className="text-justify">
           Welcome to Aditya Fireworks Industries, where the magic of fireworks
           comes alive! As pioneers in the art of creating awe-inspiring
@@ -30,6 +26,11 @@ function About() {
           moment is a celebration!
         </p>
       </div>
+      <img
+        src={"/assets/bomb.png"}
+        alt="crackers"
+        className="object-cover col-span-1 img-fluid"
+      />
     </div>
   );
 }

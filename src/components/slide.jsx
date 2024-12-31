@@ -10,8 +10,8 @@ const Slide = ({ items }) => {
     infinite: true,
     speed: 500,
     autoPlaySpead: 300,
-    autoplay: true,
-    initialSlide: 0,
+    //autoplay: true,
+    initialSlide: 1,
     slidesToShow: 4.3,
     arrows: false,
     responsive: [
@@ -58,16 +58,18 @@ const Slide = ({ items }) => {
               maxWidth: 345,
               height: 600,
               borderRadius: 5,
-
-              objectFit: "cover",
-              objectPosition: "center",
+              p: 2,
             }}
           >
             <CardMedia
               component="img"
               src={item.imageUrl}
               alt={item.title}
-              className="h-64 w-full object-cover p-4"
+              className="h-52 w-full p-1"
+              sx={{
+                backgroundImage: "url(assets/cardbackground-1.png)",
+                objectFit: "contain",
+              }}
             />
             <CardContent>
               <Typography
@@ -76,11 +78,7 @@ const Slide = ({ items }) => {
               >
                 {item.title}
               </Typography>
-              <Typography
-                variant="body2"
-                color="text.secondary"
-                className="py-2 text-justify "
-              >
+              <Typography variant="body2" className="py-2 text-justify">
                 {item.description}
               </Typography>
             </CardContent>
