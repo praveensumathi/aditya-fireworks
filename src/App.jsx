@@ -1,12 +1,12 @@
 import { Container } from "@mui/material";
 import Button from "@mui/material/Button";
 import Navbar from "./Navbar";
-import Footer from "./Footer";
 import About from "./components/about";
 import SectionTitle from "./components/sectionTitle";
 import Slide from "./components/slide";
 import { product, slider } from "./utils/utils";
 import ProductPage from "./components/ProductPage";
+import Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -40,8 +40,14 @@ export default function App() {
           </div>
           <ProductPage items={product} />
         </section>
+
+        <section className="container">
+          <div className="pb-10">
+            <SectionTitle title="Footer" />
+          </div>
+          <Footer />
+        </section>
       </Container>
-      <Footer />
     </>
   );
 }
