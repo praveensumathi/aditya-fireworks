@@ -12,14 +12,9 @@ export default function App() {
   return (
     <>
       <Navbar />
-      <Box>
+      <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
         <section>
-          {/* <div className="py-4">
-            <SectionTitle title="About Us" />
-          </div> */}
-          <div className="py-10">
-            <SectionTitle title="Aditya Fireworks Industries" />
-          </div>
+          <SectionTitle title="Aditya Fireworks Industries" />
           <About />
         </section>
         <Box
@@ -34,20 +29,13 @@ export default function App() {
             backgroundSize: "cover",
           }}
         >
-          <div className="py-10">
-            <SectionTitle title="Products" />
-          </div>
-
+          <SectionTitle title="Products" />
           <Slide items={slider} />
         </Box>
-
         <section>
-          <div className="pb-10">
-            <SectionTitle title="Products Page" />
-          </div>
+          <SectionTitle title="Products Page" />
           <ProductPage items={product} />
         </section>
-
         <section className="mt-10">
           <Footer />
         </section>

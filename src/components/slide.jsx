@@ -8,10 +8,8 @@ const Slide = ({ items }) => {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
-    autoPlaySpead: 300,
-    //autoplay: true,
-    initialSlide: 1,
+    autoPlaySpead: 80,
+    autoplay: true,
     slidesToShow: 4.3,
     arrows: false,
     responsive: [
@@ -59,6 +57,8 @@ const Slide = ({ items }) => {
               height: 600,
               borderRadius: 5,
               p: 2,
+              backgroundColor: "#091629",
+              color: "white",
             }}
           >
             <CardMedia
