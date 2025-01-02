@@ -26,13 +26,17 @@ function Footer() {
         sx={{
           color: "white",
           py: 4,
-          backgroundImage:
-            "url(https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif)",
+          backgroundImage: "url(assets/giphy.gif)",
           backgroundSize: "contain",
           backgroundPosition: "center",
         }}
       >
-        <Grid2 container spacing={2} justifyContent={"center"}>
+        <Grid2
+          container
+          spacing={2}
+          justifyContent={"center"}
+          alignItems={"center"}
+        >
           {/* Left Column */}
           <Grid2 size={{ xs: 10, md: 5 }}>
             <Box className="flex items-center">
@@ -150,16 +154,10 @@ function Footer() {
           textAlign: "center",
           backgroundColor: "#091629",
           color: "white",
+          p: 2,
         }}
       >
-        <Typography
-          style={{
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            height: "100%",
-          }}
-        >
+        <Typography>
           Copyright &copy; {new Date().getFullYear()}. All Rights Reserved by
           Aditya Fireworks Industries
         </Typography>

@@ -1,11 +1,4 @@
-import {
-  AppBar,
-  Box,
-  Button,
-  Container,
-  Toolbar,
-  useTheme,
-} from "@mui/material";
+import { AppBar, Box, Button, Toolbar, useTheme } from "@mui/material";
 import React from "react";
 import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
@@ -16,17 +9,17 @@ function Navbar() {
   const theme = useTheme();
 
   return (
-    <AppBar position="sticky">
+    <AppBar position="sticky" sx={{ backgroundColor: "#091629" }}>
       <div
         style={{
           display: "flex",
           alignItems: "center",
-          height: "30px",
+          height: "40px",
           backgroundColor: "#f89826",
         }}
       >
-        <marquee>
-          <p style={{ color: "white", fontSize: "16px", fontWeight: "bolder" }}>
+        <marquee scrollamount={8}>
+          <p style={{ color: "black", fontSize: "18px", fontWeight: "bolder" }}>
             🚀&nbsp; 🎇 Celebrate in Style !!&nbsp; 🎊 &nbsp;Special Festive
             Offers Await You !!&nbsp; 🛍️ &nbsp;Shop Today and Make Your
             Celebrations Brighter !! &nbsp;🌟
