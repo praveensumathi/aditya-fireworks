@@ -56,7 +56,7 @@ const Slide = ({ items }) => {
               xl: 430,
               sm: 350,
             },
-            height: 450,
+            height: 500,
             borderRadius: 5,
             p: 2,
             backgroundColor: "#091629",
@@ -88,7 +88,7 @@ const Slide = ({ items }) => {
                 display: "-webkit-box",
                 WebkitBoxOrient: "vertical",
                 overflow: "hidden",
-                WebkitLineClamp: 3,
+                WebkitLineClamp: 5,
                 lineHeight: 2,
               }}
             >
