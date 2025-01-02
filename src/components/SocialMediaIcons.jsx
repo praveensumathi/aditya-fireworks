@@ -1,7 +1,5 @@
-import List from "@mui/material/List";
-import ListItemIcon from "@mui/material/ListItemIcon";
+import { Box } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { Box, ListItem } from "@mui/material";
 
 function SocialMediaIcons() {
   return (
@@ -9,27 +7,41 @@ function SocialMediaIcons() {
       sx={{
         position: "fixed",
         bottom: "50px",
-        zIndex: "6",
+        left: "20px",
+        zIndex: 6,
         cursor: "pointer",
-        padding: "10px",
+        animation: "bounce 2s infinite ease-in-out",
+        "&:hover": {
+          animation: "none",
+        },
       }}
     >
-      <List sx={{ width: "70%", height: "80px" }}>
-        <a href="https://wa.me/message/EPP2G5MXN5KCN1" target="_blank">
-          <ListItem
+      <a
+        href="https://wa.me/message/EPP2G5MXN5KCN1"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <Box
+          sx={{
+            backgroundColor: "#25d366",
+            padding: "8px",
+            borderRadius: "50%",
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+        >
+          <WhatsAppIcon
             sx={{
-              background: "#25d366",
-              padding: "10px",
-              justifyContent: "center",
-              borderRadius: "10%",
+              color: "#fff",
+              fontSize: "45px",
+              "&:hover": {
+                transform: "scale(1.1)",
+              },
             }}
-          >
-            <ListItemIcon sx={{ justifyContent: "center" }}>
-              <WhatsAppIcon sx={{ color: "#fff" }} />
-            </ListItemIcon>
-          </ListItem>
-        </a>
-      </List>
+          />
+        </Box>
+      </a>
     </Box>
   );
 }
