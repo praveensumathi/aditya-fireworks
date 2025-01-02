@@ -80,33 +80,41 @@ function Footer() {
             <Box display="flex" alignItems="center" mb={2}>
               <LocalPhoneIcon
                 fontSize="large"
-                sx={{ color: `${theme.palette.primary.main}`, mr: 1 }}
+                sx={{ color: `${theme.palette.primary.main}`, mr: 3 }}
               />
               <Box>
                 <Typography variant="h5">Phone</Typography>
-                <Box>
-                  <Box display="flex" justifyContent="space-between">
+                <Grid2
+                  container
+                  columnGap={5}
+                  columnSpacing={{ xs: 1, sm: 1, md: 2 }}
+                >
+                  <Box display="flex" flexDirection={"column"}>
                     <Typography variant="h6">Logesh</Typography>
+                    <Typography variant="h6">9489583398</Typography>
+                  </Box>
+                  <Box display="flex" flexDirection={"column"}>
                     <Typography variant="h6">Dinesh</Typography>
+                    <Typography variant="h6">6383081492</Typography>
                   </Box>
-                  <Box display="flex" justifyContent="space-between" mt={1}>
-                    <Typography variant="body1">9489583398</Typography>
-                    <Typography variant="body1">6383081492</Typography>
-                  </Box>
-                </Box>
+                </Grid2>
               </Box>
             </Box>
             <Box display="flex" alignItems="center" mb={2}>
               <EmailOutlinedIcon
                 fontSize="large"
-                sx={{ color: `${theme.palette.primary.main}`, mr: 1 }}
+                sx={{ color: `${theme.palette.primary.main}`, mr: 3 }}
               />
               <Box>
                 <Typography variant="h5">Email</Typography>
                 <Typography variant="h6">
                   <a
                     href="mailto:Adityafireworksindustries@gmail.com"
-                    style={{ textDecoration: "none", color: "white" }}
+                    style={{
+                      textDecoration: "none",
+                      color: "white",
+                      wordBreak: "break-word",
+                    }}
                   >
                     Adityafireworksindustries@gmail.com
                   </a>
@@ -116,7 +124,7 @@ function Footer() {
             <Box display="flex" alignItems="center">
               <LocationOnOutlinedIcon
                 fontSize="large"
-                sx={{ color: `${theme.palette.primary.main}`, mr: 1 }}
+                sx={{ color: `${theme.palette.primary.main}`, mr: 3 }}
               />
               <Box>
                 <Typography variant="h5">Address</Typography>
