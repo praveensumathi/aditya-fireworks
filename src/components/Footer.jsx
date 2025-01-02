@@ -41,7 +41,7 @@ function Footer() {
               </Typography>
             </Box>
             <Typography variant="h6" mt={2} fontWeight={400}>
-              Aditya Fireworks Industries was established in 2022. We are a
+              Aditya Fireworks Industries was established in 2010. We are a
               recognized Neeri Approved fireworks manufacturers in india.
             </Typography>
             <Box mt={3}>
@@ -51,9 +51,15 @@ function Footer() {
               <IconButton>
                 <Instagram sx={socialMediaIconStyles} />
               </IconButton>
-              <IconButton>
-                <WhatsApp sx={socialMediaIconStyles} />
-              </IconButton>
+              <a
+                href="https://wa.me/9489583398"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <IconButton>
+                  <WhatsApp sx={socialMediaIconStyles} />
+                </IconButton>
+              </a>
               <IconButton>
                 <YouTubeIcon sx={socialMediaIconStyles} />
               </IconButton>
@@ -78,7 +84,16 @@ function Footer() {
               />
               <Box>
                 <Typography variant="h5">Phone</Typography>
-                <Typography variant="h6">9843418723, 9994498723</Typography>
+                <Box>
+                  <Box display="flex" justifyContent="space-between">
+                    <Typography variant="h6">Logesh</Typography>
+                    <Typography variant="h6">Dinesh</Typography>
+                  </Box>
+                  <Box display="flex" justifyContent="space-between" mt={1}>
+                    <Typography variant="body1">9489583398</Typography>
+                    <Typography variant="body1">6383081492</Typography>
+                  </Box>
+                </Box>
               </Box>
             </Box>
             <Box display="flex" alignItems="center" mb={2}>
@@ -90,10 +105,10 @@ function Footer() {
                 <Typography variant="h5">Email</Typography>
                 <Typography variant="h6">
                   <a
-                    href="mailto:theleaderskids@gmail.com"
+                    href="mailto:Adityafireworksindustries@gmail.com"
                     style={{ textDecoration: "none", color: "white" }}
                   >
-                    theleaderskids@gmail.com
+                    Adityafireworksindustries@gmail.com
                   </a>
                 </Typography>
               </Box>
@@ -106,8 +121,7 @@ function Footer() {
               <Box>
                 <Typography variant="h5">Address</Typography>
                 <Typography variant="h6">
-                  #311-A, Old ByPass Road, KVB Bank Backside, P.Velur, Namakkal
-                  Dt. Tamilnadu-638 182
+                  2/153 Ethirkottai Village, Sivakasi Taluk, Virudhunagar.
                 </Typography>
               </Box>
             </Box>

@@ -7,11 +7,13 @@ import { about, product, slider } from "./utils/utils";
 import ProductPage from "./components/ProductPage";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
+import SocialMediaIcons from "./components/SocialMediaIcons";
 
 export default function App() {
   return (
     <>
       <Navbar />
+      <SocialMediaIcons />
       <div className="relative h-[50vh]">
         <section
           id="home"
