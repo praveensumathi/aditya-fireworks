@@ -22,7 +22,16 @@ function Footer() {
 
   return (
     <>
-      <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
+      <Box
+        sx={{
+          color: "white",
+          py: 4,
+          backgroundImage:
+            "url(https://media.giphy.com/media/IjmMzurYulKEw/giphy.gif)",
+          backgroundSize: "contain",
+          backgroundPosition: "center",
+        }}
+      >
         <Grid2 container spacing={2} justifyContent={"center"}>
           {/* Left Column */}
           <Grid2 size={{ xs: 10, md: 5 }}>
