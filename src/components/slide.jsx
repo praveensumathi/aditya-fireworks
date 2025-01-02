@@ -56,7 +56,7 @@ const Slide = ({ items }) => {
               xl: 430,
               sm: 350,
             },
-            height: 600,
+            height: 450,
             borderRadius: 5,
             p: 2,
             backgroundColor: "#091629",
@@ -81,7 +81,17 @@ const Slide = ({ items }) => {
             >
               {item.title}
             </Typography>
-            <Typography variant="body2" className="py-2 text-justify">
+            <Typography
+              variant="body2"
+              className="py-2 text-justify description"
+              sx={{
+                display: "-webkit-box",
+                WebkitBoxOrient: "vertical",
+                overflow: "hidden",
+                WebkitLineClamp: 3,
+                lineHeight: 2,
+              }}
+            >
               {item.description}
             </Typography>
           </CardContent>
