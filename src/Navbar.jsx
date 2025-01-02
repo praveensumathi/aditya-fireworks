@@ -21,12 +21,10 @@ function Navbar() {
   const theme = useTheme();
   const [drawerOpen, setDrawerOpen] = React.useState(false);
 
-  // Function to handle drawer opening
   const handleDrawerOpen = () => {
     setDrawerOpen(true);
   };
 
-  // Function to handle drawer closing
   const handleDrawerClose = () => {
     setDrawerOpen(false);
   };
@@ -34,7 +32,6 @@ function Navbar() {
   return (
     <>
       <AppBar position="sticky" sx={{ backgroundColor: "#091629" }}>
-        {/* Marquee */}
         <div
           style={{
             display: "flex",
@@ -54,9 +51,7 @@ function Navbar() {
           </marquee>
         </div>
 
-        {/* Toolbar */}
         <Toolbar sx={{ backgroundColor: "#091629" }}>
-          {/* Logo */}
           <a href="#home">
             <Box
               component="img"
