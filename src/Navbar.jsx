@@ -8,6 +8,22 @@ const pages = ["Home", "About", "Products", "Contact"];
 function Navbar() {
   return (
     <AppBar position="sticky">
+      <div
+        style={{
+          display: "flex",
+          alignItems: "center",
+          height: "30px",
+          backgroundColor: "#f89826",
+        }}
+      >
+        <marquee>
+          <p style={{ color: "white", fontSize: "16px", fontWeight: "bolder" }}>
+            🚀&nbsp; 🎇 Celebrate in Style !!&nbsp; 🎊 &nbsp;Special Festive
+            Offers Await You !!&nbsp; 🛍️ &nbsp;Shop Today and Make Your
+            Celebrations Brighter !! &nbsp;🌟
+          </p>
+        </marquee>
+      </div>
       <Container maxWidth={false}>
         <Toolbar disableGutters>
           <a href="#home">

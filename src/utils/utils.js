@@ -1,11 +1,11 @@
 export const slider = [
   {
-    title: "Flower pots",
+    title: "Flowerpots",
     imageUrl: "assets/splflowerpots.png",
     description: `Our Flowerpots are a harmonious blend of vibrant colors and mesmerizing patterns, designed to light up the sky with elegance and grace. Handcrafted with precision and care, each Flowerpot showcases a symphony of hues that dance in the night, creating a breathtaking spectacle for all to admire. Whether it's a grand celebration or an intimate gathering, our Flowerpots add a touch of magic to every moment.`,
   },
   {
-    title: "Special flowerpots",
+    title: "Special Flowerpots",
     imageUrl: "assets/Flowerpots.png",
     description: `Elevate your fireworks display with our exclusive collection of Special Flowerpots. These unique creations are crafted to perfection, combining artistic flair with spectacular effects that mesmerize and enchant. From cascading sparks to intricate patterns of light, each Special Flowerpot is a masterpiece designed to leave a lasting impression. Whether it's a wedding, a corporate event, or a private celebration, our Special Flowerpots add a touch of elegance and sophistication to any occasion.`,
   },
