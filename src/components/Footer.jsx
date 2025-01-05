@@ -97,20 +97,7 @@ function Footer() {
               />
               <Box>
                 <Typography variant="h5">Phone</Typography>
-                <Grid2
-                  container
-                  columnGap={5}
-                  columnSpacing={{ xs: 1, sm: 1, md: 2 }}
-                >
-                  <Box display="flex" flexDirection={"column"}>
-                    <Typography variant="h6">Logesh</Typography>
-                    <Typography variant="h6">9489583398</Typography>
-                  </Box>
-                  <Box display="flex" flexDirection={"column"}>
-                    <Typography variant="h6">Dinesh</Typography>
-                    <Typography variant="h6">6383081492</Typography>
-                  </Box>
-                </Grid2>
+                <Typography variant="h6">9489583398</Typography>
               </Box>
             </Box>
             <Box display="flex" alignItems="center" mb={2}>

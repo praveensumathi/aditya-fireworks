@@ -20,7 +20,7 @@ function About() {
         </div>
         <div className="text-justify p-5">
           Welcome to Aditya Fireworks Industries, where the magic of fireworks
-          comes alive! With 2 years of expertise, we craft dazzling pyrotechnic
+          comes alive! With 15 years of expertise, we craft dazzling pyrotechnic
           displays that ignite the sky with vibrant colors, brilliant lights,
           and mesmerizing sounds. From sparkling flowerpots to soaring rockets
           and crackling bijili crackers, our products are a perfect blend of

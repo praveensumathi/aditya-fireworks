@@ -1,11 +1,16 @@
+import { Box } from "@mui/material";
 import React from "react";
 
-export default function Banner({ title }) {
+export default function Banner({ title, subtitle, image }) {
   return (
     <div className="text-center">
-      <h2 className="text-3xl md:text-4xl text-shadow relative text-white font-extrabold leading-tight text-shadow-custom">
+      <div className="flex justify-center">{image}</div>
+      <h2 className="text-4xl md:text-6xl relative text-white font-extrabold leading-tight -mt-7">
         {title}
       </h2>
+      <h5 className="text-xl relative text-white font-extrabold leading-tight p-5">
+        {subtitle}
+      </h5>
     </div>
   );
 }

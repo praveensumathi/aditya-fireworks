@@ -8,8 +8,13 @@ import ProductPage from "./components/ProductPage";
 import Footer from "./components/Footer";
 import Banner from "./components/Banner";
 import SocialMediaIcons from "./components/SocialMediaIcons";
+import { useTheme } from "@mui/material/styles";
+import useMediaQuery from "@mui/material/useMediaQuery";
 
 export default function App() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <>
       <Navbar />
@@ -20,7 +25,22 @@ export default function App() {
           className="banner-image bg-cover bg-no-repeat bg-center h-full flex items-center justify-center"
         >
           <div className="absolute inset-0 bg-black opacity-20"></div>
-          <Banner title="We are one of the leading sellers of crackers" />
+          <Banner
+            image={
+              <Box
+                component="img"
+                sx={{
+                  width: isMobile ? "70%" : "100%",
+                  maxWidth: isMobile ? 300 : 400,
+                  height: "auto",
+                }}
+                alt="Your logo."
+                src={"assets/ADITYALOGO.png"}
+              />
+            }
+            title="Fireworks Industries"
+            subtitle="One of the most Trusted & leading fireworks manufacturer in sivakasi"
+          />
         </section>
       </div>
       <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
