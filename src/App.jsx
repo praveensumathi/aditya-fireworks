@@ -41,7 +41,7 @@ export default function App() {
         <Box
           className="py-10 sm:px-4"
           sx={{
-            backgroundImage: "url(assets/parallax.jpg)",
+            backgroundImage: "url(/assets/parallax.jpg)",
             objectFit: "contain",
             width: "100%",
             objectPosition: "center",
