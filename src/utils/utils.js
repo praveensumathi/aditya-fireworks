@@ -44,6 +44,76 @@ export const slider = [
     imageUrl: "assets/hydro_thunder_bomb.jpeg",
     description: `These powerful fireworks deliver booming sounds and vibrant bursts of light, creating an exhilarating atmosphere that commands attention. With their impressive display and thrilling effects, Thunder Bomb crackers are perfect for adding excitement to grand celebrations and events.`,
   },
+  {
+    title: "Squad Bomb",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Large, multi-shot firecracker or firework designed to mimic the effect of multiple smaller crackers exploding in quick succession. It’s often loud, vibrant, and used during celebrations or festivals to create an exciting, high-energy display.`,
+  },
+  {
+    title: "Digital Bomb",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Eco-friendly alternatives to traditional firecrackers, designed to simulate the sights and sounds of fireworks digitally. These virtual crackers are displayed on electronic devices, such as smartphones, tablets, or projectors, providing a safe, pollution-free way to celebrate events and festivals.`,
+  },
+  {
+    title: "12 Shot Raider",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Type of firework that launches 12 consecutive shots into the sky, typically bursting with colorful effects and loud sounds. It’s a popular choice for celebrations, offering an exciting sequence of aerial explosions and vibrant patterns in quick succession.`,
+  },
+  {
+    title: "25 Shot Raider",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Firework that launches 25 sequential shots into the sky, creating a dazzling display of colorful bursts and loud effects. It's known for its vibrant patterns, extended duration, and is a favorite for festive celebrations and events.`,
+  },
+  {
+    title: "15 Shot Multicolor",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Releases 15 vibrant multicolored shots into the sky, creating a stunning and dynamic visual display. Known for its premium quality, it offers a mix of bright colors and exciting effects, making it ideal for festive occasions and celebrations.`,
+  },
+  {
+    title: "30 Shot Multicolor",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `High-quality firework that launches 30 vibrant, multicolored shots in rapid succession. It creates a spectacular and extended aerial display with bright colors and dynamic effects, perfect for enhancing festive celebrations and special events.`,
+  },
+  {
+    title: "60 Shot Multicolor",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Grand firework that fires 60 vibrant, multicolored shots in sequence. It delivers an extended, mesmerizing display of bright bursts and dynamic patterns, making it a showstopper for large celebrations and festive events.`,
+  },
+  {
+    title: "120 Shot Multicolor",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Impressive firework that releases 120 vibrant, multicolored shots in a continuous sequence. It offers a breathtaking, extended aerial display with stunning colors and effects, making it a show-stopping choice for large celebrations and grand events.`,
+  },
+  {
+    title: "240 Shot Multicolor",
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Powerful firework that launches 240 colorful shots in rapid succession, creating an extended and visually stunning display. It features a mix of bright hues and dazzling effects, perfect for large-scale celebrations and festivals, providing a thrilling and long-lasting experience.`,
+  },
+  {
+    title: '1" Chota Fancy',
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Compact firework that produces vibrant, colorful bursts in the sky. Despite its small size, it delivers eye-catching effects and is popular for adding a touch of excitement to smaller celebrations and festive events.`,
+  },
+  {
+    title: '2" Single Pipe',
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Powerful firework that launches a single, large burst into the sky, creating a vibrant and loud explosion. Known for its bright colors and impressive impact, it is ideal for adding a dramatic flair to celebrations and events.`,
+  },
+  {
+    title: '2"(3pcs) Pipe',
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Set of three powerful fireworks, each launching a vibrant and loud burst into the sky. These crackers produce bright colors and impressive effects, making them a popular choice for festive celebrations and events.`,
+  },
+  {
+    title: '3 1/2" Pipe',
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Large, high-impact fireworks designed to create a powerful burst of vibrant colors and loud effects in the sky. Known for their impressive size and dramatic display, they are perfect for grand celebrations and festive events.`,
+  },
+  {
+    title: '3 1/2" Nayagara',
+    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    description: `Spectacular fireworks that create a cascading waterfall-like effect of sparkling lights. Known for their elegance and grandeur, these crackers produce a stunning visual display, making them a highlight of festive celebrations and special events.`,
+  },
 ];
 
 export const product = [
