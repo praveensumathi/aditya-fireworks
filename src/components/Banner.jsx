@@ -8,7 +8,7 @@ export default function Banner({ title, subtitle, image }) {
       <h2 className="text-4xl md:text-6xl relative text-white font-extrabold leading-tight -mt-7">
         {title}
       </h2>
-      <h5 className="text-xl relative text-white font-extrabold leading-tight p-5">
+      <h5 className="text-2xl relative text-white font-semibold leading-tight p-5">
         {subtitle}
       </h5>
     </div>

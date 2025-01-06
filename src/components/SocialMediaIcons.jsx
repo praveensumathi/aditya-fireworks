@@ -7,7 +7,7 @@ function SocialMediaIcons() {
     <Box
       sx={{
         position: "fixed",
-        bottom: "50px",
+        bottom: "15px",
         left: "20px",
         zIndex: 6,
         cursor: "pointer",
