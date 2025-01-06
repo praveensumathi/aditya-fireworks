@@ -43,7 +43,7 @@ export default function App() {
           />
         </section>
       </div>
-      <Box sx={{ backgroundColor: "#091629", color: "white", py: 4 }}>
+      <Box sx={{ backgroundColor: "#091629", color: "white" }}>
         <section id="about">
           <SectionTitle title="Aditya Fireworks Industries" />
           <Box className="grid grid-rows-1 grid-cols-2  md:grid-cols-4 md:text-xl md:pb-4 ">
