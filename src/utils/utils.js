@@ -46,12 +46,12 @@ export const slider = [
   },
   {
     title: "Squad Bomb",
-    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    imageUrl: "assets/SquadBomb.png",
     description: `Large, multi-shot firecracker or firework designed to mimic the effect of multiple smaller crackers exploding in quick succession. It’s often loud, vibrant, and used during celebrations or festivals to create an exciting, high-energy display.`,
   },
   {
     title: "Digital Bomb",
-    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    imageUrl: "assets/DigitalBomb.png",
     description: `Eco-friendly alternatives to traditional firecrackers, designed to simulate the sights and sounds of fireworks digitally. These virtual crackers are displayed on electronic devices, such as smartphones, tablets, or projectors, providing a safe, pollution-free way to celebrate events and festivals.`,
   },
   {
@@ -61,7 +61,7 @@ export const slider = [
   },
   {
     title: "25 Shot Raider",
-    imageUrl: "assets/hydro_thunder_bomb.jpeg",
+    imageUrl: "assets/25_shot_raider.png",
     description: `Firework that launches 25 sequential shots into the sky, creating a dazzling display of colorful bursts and loud effects. It's known for its vibrant patterns, extended duration, and is a favorite for festive celebrations and events.`,
   },
   {
@@ -134,8 +134,36 @@ export const product = [
     imageUrl: "assets/special_chakkars.webp",
   },
   {
-    title: "Lakshmi Bijili Crackers",
+    title: "Lakshmi Bijili",
     imageUrl: "assets/lakshmi_crackers.jpeg",
+  },
+  {
+    title: "25 Shot Raider",
+    imageUrl: "assets/25_shot_raider.png",
+  },
+  {
+    title: "Bullet Bomb Big",
+    imageUrl: "assets/Bullet_bomb_big.png",
+  },
+  {
+    title: "Bullet Bomb Small",
+    imageUrl: "assets/Bullet_bomb_small.png",
+  },
+  {
+    title: "Digital Bomb",
+    imageUrl: "assets/DigitalBomb.png",
+  },
+  {
+    title: "Lakshmi 3inch",
+    imageUrl: "assets/Lakshmi_3inch.png",
+  },
+  {
+    title: "Squad Bomb",
+    imageUrl: "assets/SquadBomb.png",
+  },
+  {
+    title: "Terrible Bomb",
+    imageUrl: "assets/Terrible_Bomb.png",
   },
 ];
 
